@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(India.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+.container{ 
+    color: orange;
+    position: absolute;
+    top: 27%;
+    left: 42%;
+}
+ img{
+    position: absolute;
+    top: -12%;
+     height: 50px;
+     width: 50px;
+     border-radius: 33px;
+     left: 100px;
+}
+.container h1{
+    font-size: 40px;
+    margin-bottom: 43px;
+    border-bottom: 2px solid orange;
+    font-style: bold italic;
+    margin-bottom: 43px;
+    padding: 13px 0;
+}
+
+.box1 {
+    width: 100%;
+    border-bottom: 3px solid white;
+}
+.box2{
+    width: 100%;
+    border-bottom: 3px solid white;
+}
+.box1 input{
+    background: none;
+    width: 100%;
+    margin: 2px 2px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.box2 input{
+    background: none;
+    color: white;
+    margin: 2px 2px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.box1 i{
+    width: 25px;
+    text-align: center;
+    color: white;
+}.box2 i{
+    width: 25px;
+    text-align: center;
+    color: white;
+}
+.btn{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    width:230px;
+    margin: 20px ;
+    padding: 6px;
+    border-radius: 20px;
+    border: 2px solid green;
+}
